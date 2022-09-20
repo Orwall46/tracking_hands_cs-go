@@ -1,2 +1,5 @@
 keyboard 0.13.5
 Pymem 1.8.5
+autopy
+opencv-python
+mediapipe
