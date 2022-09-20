@@ -47,5 +47,6 @@ def main():
         if keyboard.is_pressed('esc'):
             break
 
+
 if __name__ == "__main__":
     main()
