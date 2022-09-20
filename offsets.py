@@ -6,3 +6,4 @@ dwEntityList = 0x4DDD91C
 dwGlowObjectManager = 0x53265D0
 m_iGlowIndex = 0x10488
 dwWeaponTable = 0x522F9B4
+
