@@ -6,7 +6,7 @@ import cv2
 import mediapipe as mp
 from offsets import *
 
-# Отслеживаем запущенный процесс под названием csgo.exe
+# Monitor the running process called csgo.exe
 # _process = pymem.Pymem("csgo.exe")
 # _client = pymem.process.module_from_name(_process.process_handle, "client.dll").lpBaseOfDll
 
@@ -34,7 +34,7 @@ def main():
                     cv2.circle(img, (cx, cy), 10, (255, 0, 255), cv2.FILLED)
                     autopy.mouse.move(cx * width / w, cy * height / h)
 
-                    # Передаем стрельбу. Можно настроить на любой другой триггер ...
+                    # We pass the shooting. Can be set to any other trigger...
                     # attack = _client + dwForceAttack
                     # _process.write_int(attack, 5)
                     # time.sleep(0.01)
