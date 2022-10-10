@@ -42,7 +42,7 @@ def main():
 
             mpDraw.draw_landmarks(img, result.multi_hand_landmarks[0], mp.solutions.hands.HAND_CONNECTIONS)
         rotated = cv2.rotate(img, cv2.ROTATE_180)
-        cv2.imshow('Eldar Jivi, brats', rotated)
+        cv2.imshow('Have a nice day', rotated)
         cv2.waitKey(1)
         if keyboard.is_pressed('esc'):
             break
